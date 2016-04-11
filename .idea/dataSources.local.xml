@@ -3,8 +3,9 @@
   <component name="dataSourceStorageLocal">
     <data-source name="PostgreSQL - postgres@localhost" uuid="7c2c1a74-0405-440b-a2a8-c2dac816f09f">
       <secret-storage>memory</secret-storage>
-      <first-sync>true</first-sync>
       <user-name>sirishakannuri</user-name>
+      <schema-pattern>postgres.pg_catalog postgres.public</schema-pattern>
+      <default-schemas>postgres.public</default-schemas>
     </data-source>
   </component>
 </project>
